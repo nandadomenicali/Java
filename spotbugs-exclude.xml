@@ -42,9 +42,6 @@
         <Bug pattern="INT_BAD_REM_BY_1" />
     </Match>
     <Match>
-        <Bug pattern="ICAST_IDIV_CAST_TO_DOUBLE" />
-    </Match>
-    <Match>
         <Bug pattern="FE_FLOATING_POINT_EQUALITY" />
     </Match>
     <Match>
@@ -86,10 +83,10 @@
     <Match>
         <Bug pattern="RCN_REDUNDANT_NULLCHECK_OF_NONNULL_VALUE" />
     </Match>
-    <!-- fb-contrib -->
     <Match>
-        <Bug pattern="OCP_OVERLY_CONCRETE_PARAMETER" />
+        <Bug pattern="AT_STALE_THREAD_WRITE_OF_PRIMITIVE" />
     </Match>
+    <!-- fb-contrib -->
     <Match>
         <Bug pattern="LSC_LITERAL_STRING_COMPARISON" />
     </Match>
@@ -119,9 +116,6 @@
     </Match>
     <Match>
         <Bug pattern="BL_BURYING_LOGIC" />
-    </Match>
-    <Match>
-        <Bug pattern="PCOA_PARTIALLY_CONSTRUCTED_OBJECT_ACCESS" />
     </Match>
     <Match>
         <Bug pattern="UTWR_USE_TRY_WITH_RESOURCES" />
@@ -166,9 +160,6 @@
         <Bug pattern="DSOC_DUBIOUS_SET_OF_COLLECTIONS" />
     </Match>
     <Match>
-        <Bug pattern="NAB_NEEDLESS_BOX_TO_UNBOX" />
-    </Match>
-    <Match>
         <Bug pattern="FPL_FLOATING_POINT_LOOPS" />
     </Match>
     <Match>
@@ -206,6 +197,9 @@
     </Match>
     <Match>
         <Bug pattern="SLS_SUSPICIOUS_LOOP_SEARCH" />
+    </Match>
+    <Match>
+        <Bug pattern="BAS_BLOATED_ASSIGNMENT_SCOPE" />
     </Match>
     <!-- find-sec-bugs -->
     <Match>
